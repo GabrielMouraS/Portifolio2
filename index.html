@@ -1,0 +1,113 @@
+<!doctype html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Moura - Portfólio Pessoal</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Gabriel Moura</div>
+        <ul class="nav-links">
+          <li><a href="#hero">Apresentação</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <img
+          src="img/foto-perfil.png"
+          alt="Foto de perfil de Gabriel Moura"
+          class="img-perfil"
+        />
+        <h1>Gabriel Moura dos Santos</h1>
+        <p>Desenvolvedor Backend & Técnico de Informática</p>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Estudante de Análise e Desenvolvimento de Sistemas na Fatec
+          Itapetininga. Muito interessado em desenvolvimento web, IoT e automação.
+        </p>
+        <p><strong>Idade:</strong> 21 anos</p>
+        <p>
+          <strong>Cargo Atual:</strong> Técnico de Informática - Sonoda
+          Informática Itapetininga
+        </p>
+      </section>
+
+      <section id="projetos">
+        <h2>Galeria de Projetos</h2>
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <h3>Sistema Gestão MEI</h3>
+            <p>
+              Um sistema de gestão simples e eficiente focado no Microempreendedor Individual (MEI). 
+              <br><br>Desenvolvido em C#.
+            </p>
+            
+          </div>
+          
+          <div class="projeto-card">
+            <h3>API Backend</h3>
+            <p>
+              Desenvolvimento de serviços e infraestrutura utilizando PHP e o
+              framework Laravel.
+            </p>
+          </div>
+          <div class="projeto-card">
+            <h3>Helpdesk Remoto</h3>
+            <p>
+              Soluções e scripts em Python e bash para suporte técnico e
+              infraestrutura Linux/Windows.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2>Skills / Tecnologias</h2>
+        <div class="skills">
+          <span class="skill-tag">C / C++ / C#</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Laravel</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">ESP32 / Arduino</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2>Formulário de Contato</h2>
+        <form class="form-contato">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Gabriel Moura dos Santos.</p>
+    </footer>
+  </body>
+</html>
