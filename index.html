@@ -34,67 +34,93 @@
 
       <section id="sobre">
         <h2>Sobre mim</h2>
-        <p>
-          Estudante de Análise e Desenvolvimento de Sistemas na Fatec
-          Itapetininga. Muito interessado em desenvolvimento web, IoT e automação.
-        </p>
-        <p><strong>Idade:</strong> 21 anos</p>
-        <p>
-          <strong>Cargo Atual:</strong> Técnico de Informática - Sonoda
-          Informática Itapetininga
-        </p>
+
+        <div class="sobre-card">
+          <p class="sobre-texto">
+            Estudante de Análise e Desenvolvimento de Sistemas na Fatec
+            Itapetininga. Muito interessado em desenvolvimento web, IoT e
+            automação.
+          </p>
+
+          <div class="sobre-infos">
+            <div class="info-item">
+              <strong>Idade</strong>
+              <span>21 anos</span>
+            </div>
+
+            <div class="info-item">
+              <strong>Cargo Atual</strong>
+              <span>Técnico de Informática - Sonoda Informática</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="projetos">
         <h2>Galeria de Projetos</h2>
-        <div class="projetos-grid">
-    
-    <div class="projeto-card">
-        <h3>Sistema Gestão MEI</h3>
-        <p>
-            Um sistema de gestão simples e eficiente focado no Microempreendedor Individual (MEI). 
-            <br><br>Desenvolvido em C#.
-        </p>
-        <a href="#img-projeto1" class="btn-ver-imagem">Ver Imagem</a>
-    </div>
 
-    </div> <div id="img-projeto1" class="modal-css">
-      <a href="#projetos" class="fechar-fundo"></a>
-      
-      <img src="img/projeto1.png" alt="Imagem do Gerenciador MEI">
-    </div>
-          
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <h3>Sistema Gestão MEI</h3>
+            <p>
+              Um sistema de gestão simples e eficiente focado no
+              Microempreendedor Individual (MEI).
+              <br /><br />Desenvolvido em C#.
+            </p>
+            <a href="#img-projeto1" class="btn-ver-imagem">Visualizar</a>
+            <a
+              href="https://github.com/GabrielMouraS/Climatizador-ESP32"
+              class="btn-github"
+              target="_blank"
+            >
+              <img src="img/github-logo.png" alt="Logo do GitHub" /></a>
+          </div>
+
           <div class="projeto-card">
             <h3>Gerenciador de Impressoras — WinForms C#</h3>
             <p>
-              Facilitar a remoção de várias impressoras de uma vez, sem precisar abrir o 
-              Painel de Controle ou executar comandos manualmente.
+              Facilitar a remoção de várias impressoras de uma vez, sem precisar
+              abrir o Painel de Controle ou executar comandos manualmente.
             </p>
-            <a href="#img-projeto2" class="btn-ver-imagem">Ver Imagem</a>
-            </div><div id="img-projeto2" class="modal-css">
-            <a href="#projetos" class="fechar-fundo"></a>
-            
-            <img src="img/projeto2.png" alt="Imagm do removedor impressora">
+            <a href="#img-projeto2" class="btn-ver-imagem">Visualizar</a>
+            <a
+              href="https://github.com/GabrielMouraS/Automacao-Gestao-Impressoras-Win"
+              class="btn-github"
+              target="_blank"
+            >
+              <img src="img/github-logo.png" alt="Logo do GitHub" /></a>
           </div>
-          </div>
-
 
           <div class="projeto-card">
             <h3>Climatizador IoT - ESP32 Controller</h3>
             <p>
-              Substituindo o painel de controle físico (botões mecânicos) 
-              de um climatizador por um microcontrolador ESP32, permitindo 
-              o controle total (Bomba, Velocidade, Oscilação) 
-              através de qualquer smartphone, sem necessidade de 
-              aplicativos externos.
+              Substituindo o painel de controle físico (botões mecânicos) de um
+              climatizador por um microcontrolador ESP32, permitindo o controle
+              total (Bomba, Velocidade, Oscilação) através de qualquer
+              smartphone, sem necessidade de aplicativos externos.
             </p>
-            <a href="#img-projeto3" class="btn-ver-imagem">Ver Imagem</a>
+            <a href="#img-projeto3" class="btn-ver-imagem">Visualizar</a>
+            <a
+              href="https://github.com/GabrielMouraS/Climatizador-ESP32"
+              class="btn-github"
+              target="_blank"
+            >
+              <img src="img/github-logo.png" alt="Logo do GitHub" /></a>
           </div>
-           </div><div id="img-projeto3" class="modal-css">
-          <a href="#projetos" class="fechar-fundo"></a>
-          
-          <img src="img/projeto3.png" alt="Imagm do removedor impressora">
         </div>
+        <div id="img-projeto1" class="modal-css">
+          <a href="#projetos" class="fechar-fundo"></a>
+          <img src="img/projeto1.png" alt="Imagem do Gerenciador MEI" />
+        </div>
+
+        <div id="img-projeto2" class="modal-css">
+          <a href="#projetos" class="fechar-fundo"></a>
+          <img src="img/projeto2.png" alt="Imagem do removedor de impressora" />
+        </div>
+
+        <div id="img-projeto3" class="modal-css">
+          <a href="#projetos" class="fechar-fundo"></a>
+          <img src="img/projeto3.png" alt="Imagem Projeto IOT climatizador" />
         </div>
       </section>
 
